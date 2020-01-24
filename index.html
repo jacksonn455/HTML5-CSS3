@@ -1,10 +1,22 @@
 <!DOCTYPE html> <!-- versao do html-->
-<html>
-    <meta charset="UTF-8"> <!-- Passa a informação dos caracteres/dicionario -->
-    <h1>Sobre a Barbearia Alura</h1>
-    <p>No coração da cidade a <strong> Barbearia Alura </strong> traz para o mercado o que há de melhor para o seu cabelo e barba.</p>
-    <p>Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
-    <p>Nossa missão é:<em>"Proporcionar auto-estima e qualidade de vida aos clientes".</em></p>  <!-- Italico -->
-    <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda.</p>
-    <p>O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+<html lang="pt-br"> <!--Tradução para linguagem do SO-->
+    <head> <!--Informações que estão sendo passadas para o navegador-->
+        <meta charset="UTF-8"> <!-- Passa a informação dos caracteres/dicionario -->
+        <title>Barbearia Alura</title> <!--Titulo da aba do navegador-->
+        <style>
+            h1 {
+                text-align: center 
+            }
+        </style> <!-- Forma 2 de alterar o estilo css-->
+        <link rel="stylesheet" type="text/css" href="css/style.css"> <!--forma 3 e mais usada de alterar estilo css-->
+    </head> 
+    <body> <!--Informações que quer mostrar no navegador-->
+        <h1 style="text-align: center">Sobre a Barbearia Alura</h1> <!--Forma 1 de alterar o estilo css-->
+        <p>No coração da cidade a <strong> Barbearia Alura </strong> traz para o mercado o que há de melhor para o seu cabelo e barba.</p>
+        <p>Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+        <p style="font-size: 20px; text-align: center"><em>Nossa missão é: 
+            <strong>"Proporcionar auto-estima e qualidade de vida aos clientes".</em></strong></p>  <!-- Italico separação por ; -->
+        <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda.</p>
+        <p>O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+    </body>
 </html>
