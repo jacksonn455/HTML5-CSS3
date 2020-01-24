@@ -1,3 +1,27 @@
+/**CORES: Hexadecimal, RGB e com os nomes das cores, O CSS não aceita a representação das cores em binários e numérica. */
+body{
+    background: #CCCCCC 
+
+}
+
+#banner{ /** chamada por id */
+    width: 100%;
+}
+
+h1 {
+    text-align: center
+}
+
 p {
-    text-align: center 
+    text-align: center
+    
+}
+
+#missao{ 
+    font-size: 20px;
+    text-align: center
+}
+
+em strong{ /** vai buscar o strong apenas dentro do em */
+    color: #FF0000
 }
