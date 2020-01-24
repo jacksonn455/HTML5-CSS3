@@ -1,7 +1,11 @@
 /**CORES: Hexadecimal, RGB e com os nomes das cores, O CSS não aceita a representação das cores em binários e numérica. */
+/** Estrutura do css segue a estrutura do html */
 body{
-    background: #CCCCCC 
+ 
+}
 
+.principal {
+    background: #CCCCCC 
 }
 
 #banner{ /** chamada por id */
@@ -24,4 +28,12 @@ p {
 
 em strong{ /** vai buscar o strong apenas dentro do em */
     color: #FF0000
+}
+
+.itens{
+
+}
+
+.beneficios{
+    background: #FFFFFF
 }
