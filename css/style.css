@@ -5,15 +5,16 @@ body{
 }
 
 .principal {
-    background: #CCCCCC 
+    background: #CCCCCC;
+    padding: 30px;
 }
 
 #banner{ /** chamada por id */
     width: 100%;
 }
 
-h1 {
-    text-align: center
+.titulo-principal{
+    padding: 30px;
 }
 
 p {
@@ -31,9 +32,25 @@ em strong{ /** vai buscar o strong apenas dentro do em */
 }
 
 .itens{
-
+    font-style: italic
 }
 
 .beneficios{
+    padding: 20px;
     background: #FFFFFF
+}
+
+.titulo-centralizado{
+    text-align: center
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagembeneficio{
+    width: 50%
 }
