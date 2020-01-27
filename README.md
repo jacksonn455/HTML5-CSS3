@@ -15,4 +15,4 @@ Curso de HTML5 e CSS3
 - Pseudo-classes CSS
 - Finalizando a página de produtos
 --------------------
- ![](https://github.com/jacksonn455/HTML5-CSS3/blob/master/img/cabelo+barba.jpg)
+ ![](https://github.com/jacksonn455/HTML5-CSS3/blob/master/img/img.png)

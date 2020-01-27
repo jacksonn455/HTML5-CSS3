@@ -3,12 +3,23 @@
     <head> <!--Informações que estão sendo passadas para o navegador-->
         <meta charset="UTF-8"> <!-- Passa a informação dos caracteres/dicionario -->
         <title>Barbearia Alura</title> <!--Titulo da aba do navegador-->
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/style.css"> <!--forma mais usada de alterar estilo css-->
+        <link rel="stylesheet" type="text/css" href="css/produtos.css">
     </head> 
     <body> <!--Informações que quer mostrar no navegador-->
-        <header><!--Primeira mensagem a ser apresentada {CABEÇALHO}-->
-            <h1 class="titulo-principal">Barbearia Alura</h1>
-        </header>
+        <header>
+                <div class="caixa">
+                    <h1><img src="img/logo.png"></h1>
+                    <nav> <!--Navegação-->
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contatos.html">Contatos</a></li>
+                    </ul>
+                    </nav>
+                </div>
+            </header>
         <img id="banner" src="img/banner.jpg">
         <div class="principal"> <!--As divisões têm por padrão não interferir na apresentação visual do nosso conteúdo.
              Elas servem para marcarmos nosso conteúdo, e, a partir do CSS fazermos os efeitos que quisermos. 

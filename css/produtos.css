@@ -1,10 +1,23 @@
 header{
-    background: #BBBBBB  
+    background: #BBBBBB;
+    padding: 20px 0; 
+}
+.caixa{
+    position: relative;
+    width: 940px; /* largura padrao da web */
+    margin: 0 auto;
+
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
 }
 
 nav li{
 /* Forma de como os itens são exibidos (Display) inline = tag = conteudo / block = sempre 100% da pagina*/
-    display: inline;
+display: inline;
 /* Inline as listas que estavam em colunas viram linhas */
     margin: 0 0 0 15px;
 }
@@ -15,4 +28,38 @@ nav a{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.produtos li{
+    display: inline-block; /* O tamanho pode ser ajustado, tanto na largura, quanto na altura. */
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%; /* espaçamento interno */
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000; /* borda fica posicionada entre o padding e a margin. */
+    border-radius: 10px;  
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.produto-descr{
+    font-size: 18px;
+}
+
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
 }
