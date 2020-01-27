@@ -1,0 +1,18 @@
+header{
+    background: #BBBBBB  
+}
+
+nav li{
+/* Forma de como os itens são exibidos (Display) inline = tag = conteudo / block = sempre 100% da pagina*/
+    display: inline;
+/* Inline as listas que estavam em colunas viram linhas */
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
