@@ -1,56 +1,120 @@
-/**CORES: Hexadecimal, RGB e com os nomes das cores, O CSS não aceita a representação das cores em binários e numérica. */
-/** Estrutura do css segue a estrutura do html */
-body{
- 
+header{
+    background: #BBBBBB;
+    padding: 20px 0; 
+}
+.caixa{
+    position: relative;
+    width: 940px; /* largura padrao da web */
+    margin: 0 auto;
+
 }
 
-.principal {
-    background: #CCCCCC;
-    padding: 30px;
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
 }
 
-#banner{ /** chamada por id */
-    width: 100%;
+nav li{
+/* Forma de como os itens são exibidos (Display) inline = tag = conteudo / block = sempre 100% da pagina*/
+display: inline;
+/* Inline as listas que estavam em colunas viram linhas */
+    margin: 0 0 0 15px;
 }
 
-.titulo-principal{
-    padding: 30px;
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover {  /* Efeito ao passar no link */
+    color: #c78c19;
+    text-decoration: underline;
 }
 
-p {
-    text-align: center
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.produtos li{
+    display: inline-block; /* O tamanho pode ser ajustado, tanto na largura, quanto na altura. */
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%; /* espaçamento interno */
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000; /* borda fica posicionada entre o padding e a margin. */
+    border-radius: 10px;  
+}
+
+.produtos li:hover{
+    border-color: #c78c19;
+}
+.produtos li:active{
+    border-color: #088c19;
+}
+
+.produtos li:hover h2{
+    font-size: 40px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.produto-descr{
+    font-size: 18px;
+}
+
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+footer{
+    text-align: center;
+    background: url("../img/bg.jpg");
+    padding: 40px 0px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
     
 }
 
-#missao{ 
+main{
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form p{
     font-size: 20px;
-    text-align: center
+    display: block;
+    margin-bottom: 10px;
 }
 
-em strong{ /** vai buscar o strong apenas dentro do em */
-    color: #FF0000
+.input-padrao{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
 
-.itens{
-    font-style: italic
-}
-
-.beneficios{
-    padding: 20px;
-    background: #FFFFFF
-}
-
-.titulo-centralizado{
-    text-align: center
-}
-
-ul{
-    display: inline-block; /* O tamanho pode ser ajustado, tanto na largura, quanto na altura. */
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
-
-.imagembeneficio{
-    width: 50%
+.checkbox{
+    margin: 20px 0px;
 }

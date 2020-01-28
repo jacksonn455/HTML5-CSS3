@@ -1,25 +1,25 @@
-<!DOCTYPE html> <!-- versao do html-->
-<html lang="pt-br"> <!--Tradução para linguagem do SO-->
-    <head> <!--Informações que estão sendo passadas para o navegador-->
-        <meta charset="UTF-8"> <!-- Passa a informação dos caracteres/dicionario -->
-        <title>Barbearia Alura</title> <!--Titulo da aba do navegador-->
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Barbearia Alura</title>
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css"> <!--forma mais usada de alterar estilo css-->
-        <link rel="stylesheet" type="text/css" href="css/produtos.css">
-    </head> 
-    <body> <!--Informações que quer mostrar no navegador-->
-        <header>
-                <div class="caixa">
-                    <h1><img src="img/logo.png"></h1>
-                    <nav> <!--Navegação-->
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="produtos.html">Produtos</a></li>
-                        <li><a href="contatos.html">Contatos</a></li>
-                    </ul>
-                    </nav>
-                </div>
-            </header>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style-home.css">
+    </head>
+    <body>
+    <header>
+        <div class="caixa">
+            <h1><img src="img/logo.png"></h1>
+            <nav> <!--Navegação-->
+            <ul class="navegacao">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
         <img id="banner" src="img/banner.jpg">
         <div class="principal"> <!--As divisões têm por padrão não interferir na apresentação visual do nosso conteúdo.
              Elas servem para marcarmos nosso conteúdo, e, a partir do CSS fazermos os efeitos que quisermos. 
@@ -44,5 +44,9 @@
             </ul>
         <img src="img/beneficios.jpg" class="imagembeneficio">
         </div>
+        <footer> <!--Rodapé-->
+            <img src="img/logo-branco.png">
+            <p class="copyright">©Copyright Barbearia Alura - 2020</p>
+        </footer>
     </body>
 </html>
