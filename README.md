@@ -19,5 +19,11 @@ Curso de HTML5 e CSS3
 - Melhorando a semântica
 - CSS avançado
 - Estrutura de tabelas
+- Adaptando a página inicial
+- Conteúdo externo
+- Melhorando o CSS
+- Selecionando qualquer coisa
+- Opacidade e sombra
+- Design responsivo
 --------------------
  ![](https://github.com/jacksonn455/HTML5-CSS3/blob/master/img/img.png)
