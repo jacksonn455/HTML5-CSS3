@@ -274,12 +274,7 @@ td, th{
     nav{
         position: static;
     }
-    
-    .lista-beneficio{
-        width: 100%;
-    }
-
-    .imagem-beneficio{
+    .lista-beneficio, .imagem-beneficio, .produtos, .produtos li{
         width: 100%;
     }
 }
