@@ -1,3 +1,7 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 header{
     background: #BBBBBB;
     padding: 20px 0; 
@@ -93,13 +97,16 @@ footer{
 }
 
 main{
-    width: 940px;
-    margin: 0 auto;
 
 }
 
 form{
     margin: 40px 0;
+}
+
+.formulario-contato{
+    width: 940px;
+    margin: 0 auto;
 }
 
 form label, form legend{
@@ -163,6 +170,18 @@ td, th{
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
+    clear: left;
+}
+
+.titulo-principal::first-letter{
+    font-weight: bold;
+}
+
+.principal{
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .principal p {
@@ -177,6 +196,60 @@ td, th{
     font-style: italic;
 }
 
+.itens{
+    line-height: 1.5;
+}
+
+.itens:first-child{ /* se usa para marcar por exemplo o somatorio de uma tabela */
+    font-weight: bold;
+}
+
+.itens::before{
+    content: "★";
+}
+
+.beneficios{
+    padding: 3em 0;
+    background: #888888;
+}
+
 .imagem-beneficio{
     width: 60%;
+}
+
+.conteudo-beneficio{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficio{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE 55%,#888888);
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.video{
+    width: 560px;
+    margin: 2em auto;
 }
