@@ -307,7 +307,15 @@ td, th{
         font-size: 30px;
         width: auto;
     } 
+
+    .form-contato input{
+        width: auto;
+    }
     
+    .form-contato textarea{
+        width: 85%;
+    }
+
     .input-padrao{
         display: block;
         margin-bottom: 20px;
