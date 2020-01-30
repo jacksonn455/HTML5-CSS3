@@ -281,11 +281,11 @@ td, th{
 
     /* Pagina de produtos */
     .produtos{
-        width: 100%;
+        width: 90%;
     }
 
     .produtos li{
-        width: 100%;
+        width: 95%;
         margin-bottom: 30px;
     }
 
