@@ -297,11 +297,16 @@ td, th{
         margin: 0 auto;
     }
     
-    form label, form legend{
+    form legend{
         font-size: 30px;
         display: block;
         margin-bottom: 20px;
     }
+
+    .form label{
+        font-size: 30px;
+        width: auto;
+    } 
     
     .input-padrao{
         display: block;
@@ -315,38 +320,27 @@ td, th{
     }
     
     .enviar{
-        width: 40%;
+        width: 100%;
         padding: 15px 0;
         background: orange;
         color: white;
         font-weight: bold;
-        font-size: 18px;
-        border: none;
-        border-radius: 5px;
-        transition: 1s all;
-        cursor: pointer;
-    }
-    
-    .enviar:hover{
-        background: darkorange;
-        transform:  scale(1.1);
-    }
-    
-    table{
-        margin: 20px 0 40px;
-    }
-    
-    thead{
-        background: #555555;
-        color: white;
-        font-weight: bold;
-    
-    }
-    
-    td, th{
-        border: 1px solid #000000;
-        padding: 15px 8px;
-    }
-    
+        font-size: 20px;
+    }   
 
+    #email{
+        font-size: 25px;
+    }
+
+    #telefone{
+        font-size: 25px;
+    }
+
+    #nomesobrenome{
+        font-size: 25px;
+    }
+
+    #mensagem{
+        font-size: 25px;
+    }
 }
